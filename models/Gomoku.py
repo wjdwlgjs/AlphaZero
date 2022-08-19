@@ -73,3 +73,4 @@ class Gomoku(Model):
 
     def init_state(self):
         return np.zeros((15, 15), dtype = np.int8)
+
